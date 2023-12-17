@@ -1,0 +1,95 @@
+/* ----- START DROPDOWN CSS BY Venkat ----- */
+#cssnav { 
+border: 0px;
+margin: 0px;
+margin-left: -30px;
+border-bottom: 1px solid #dddddd;
+display: inline-block;
+width: 1120px;
+font: $(tabs.font); /* Template Designer - Change Font Type, Size, Etc */
+color: $(tabs.text.color); /* Template Designer - Change Text Colour */
+}
+
+#cssnav ul {
+background: $(tabs.background.color); /* Template Designer - Change Menu Background */
+height: 30px; /* Change Height of Menu */
+list-style: none;
+margin: 0px;
+padding: 0px;
+border-bottom: 1px solid #dddddd;
+
+}
+
+#cssnav li {
+float: none;
+display: inline-block;
+padding: 0px;
+}
+
+#cssnav li a {
+background: $(tabs.background.color); /* Template Designer - Change Menu Background */
+display: block;
+margin: 0px;
+text-align: center;
+font: $(tabs.font); /* Template Designer - Change Font Type, Size, Etc */
+text-decoration: none;
+}
+
+#cssnav > ul > li > a {
+color: $(tabs.text.color); /* Template Designer - Change Text Color */
+}
+
+#cssnav ul ul a { 
+color: $(tabs.text.color); /* Template Designer - Change Text Color */
+}
+
+#cssnav li > a:hover, #cssnav ul li:hover {
+color: $(tabs.selected.text.color); /* Template Designer - Change Text Color on Hover */
+background-color: $(tabs.selected.background.color); /* Template Designer - Change Font Background on Hover */
+text-decoration: none;
+}
+
+#cssnav li ul {
+background: $(tabs.background.color); /* Template Designer - Change Menu Background */
+display: none;
+height: auto;
+padding: 0px;
+margin: 0px;
+border: 0px;
+position: absolute;
+width: 200px; /* Change Width Of DropDown Menu */
+z-index:9999;
+}
+
+#cssnav li:hover ul {
+display: block;
+}
+
+#cssnav li li {
+background: $(tabs.background.color); /* Template Designer - Change Background */
+display: block;
+float: none;
+margin: 0px;
+padding: 0px;
+width: 200px; /* Change Width Of DropDown Menu */
+}
+
+#cssnav li:hover li a {
+background: #FFFFFF; /* Template Designer - Change Background of Link on Hover */
+}
+
+#cssnav li ul a {
+display: block;
+height: auto;
+margin: 0px;
+padding: 10px;
+text-align: left;
+}
+
+#cssnav li ul a:hover, #cssnav li ul li:hover > a {
+color: $(tabs.selected.text.color); /* Template Designer - Change Text Color on Hover */
+background-color: $(tabs.selected.background.color); /* Template Designer - Change Background on Hover */
+border: 0px;
+text-decoration: none;
+}
+/* ----- END DROPDOWN CSS BY Venkat ----- */
