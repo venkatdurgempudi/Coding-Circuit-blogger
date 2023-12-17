@@ -1,2 +1,2 @@
-# database-savvy-blogger
-Data related to https://database-savvy.blogspot.com/
+# coding-circuit-blogger
+Data related to (https://coding-circuit.blogspot.com/)
